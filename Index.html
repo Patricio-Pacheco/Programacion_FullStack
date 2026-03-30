@@ -3,9 +3,18 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Mi Portafolio</title>
     </head>
     <body>
-        <p></p>
+        <h1>Patricio Pacheco</h1>
+        <p>Estudiate de programacion</p>
+        <p>Lugar favorito: Aerodromo Melilla</p>
+        <form action="/enviar" method="post">
+            <input type="text" name="Nombre" required />
+            <input type="email" name="email" required />
+            <textarea name="mensaje"></textarea>
+            <input type="checkbox" name="suscribir" />
+            <button type="submit">Enviar</button>
+        </form>
     </body>
 </html>
