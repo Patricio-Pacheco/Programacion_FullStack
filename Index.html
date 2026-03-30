@@ -9,11 +9,13 @@
         <h1>Patricio Pacheco</h1>
         <p>Estudiate de programacion</p>
         <p>Lugar favorito: Aerodromo Melilla</p>
-        <form action="/enviar" method="post">
-            <input type="text" name="Nombre" required />
-            <input type="email" name="email" required />
-            <textarea name="mensaje"></textarea>
-            <input type="checkbox" name="suscribir" />
+        <form action="/enviar" method="post"><br>
+            <input type="text" name="nombre" /><br>
+            <input type="email" name="email" required /><br>
+            <input type="password" name="clave" /><br>
+            <input type="number" name="edad" min="1" max="120" /><br>
+            <textarea name="mensaje"></textarea><br>
+            <input type="checkbox" name="suscribir" /><br>
             <button type="submit">Enviar</button>
         </form>
     </body>
