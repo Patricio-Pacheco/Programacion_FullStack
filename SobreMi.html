@@ -7,17 +7,48 @@
     </head>
     <body>
         <h1>Sobre mi</h1>
-        <img src="tu-foto.jpg" alt="Mi foto" />
-        <h2>Contactos</h2>
+        <img src="tu-foto.jpg" alt="Mi foto" height="400" width="300" />
+        
+        <h2>Lista de habilidades</h2>
+        <ol>
+            <li></li>
+        </ol>
+
+        <h3>Horarios de servicio</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Horarios</th>
+                    <th>Lunes</th>
+                    <th>Matres</th>
+                    <th>Miercoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                    <th>Sabado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td>14:20 - 21:00</td>
+                    <td>13:30 - 20:15</td>
+                    <td>12:30 - 21:00</td>
+                    <td>12:30 - 21:00</td>
+                    <td>14:20 - 22:30</td>
+                    <td>08:30 - 23:15</td>
+                </tr>
+            </tbody>
+        </table>
+
         <p>Envia tusa contactos</p>
         <form action="/enviar" method="POST">
             <input type="email" name="email" required /><br>
-            <input type="number" name="Celular" required /><br>
+            <input type="number" name="Celular" min="090000001" max="099999999" required /><br>
             <input type="checkbox" name="No soy un Robot" required /><br>
             <button type="submit">Enviar</button>
         </form>
         <p>Contactame directamente: </p>
-        <p>095380469</p>
-        <p>patoismapachecoqgmail.com</p>
+        <p>Tel: 095380469</p>
+        <p>Mail: patoismapachecoqgmail.com</p>        
     </body>
 </html>
