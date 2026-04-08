@@ -8,9 +8,16 @@
     <body>
         <h1>Sobre mi</h1>
         <img src="tu-foto.jpg" alt="Mi foto" />
-        <ol>
-            <li>Java</li>
-            <li>HTML</li>
-        </ol>
+        <h2>Contactos</h2>
+        <p>Envia tusa contactos</p>
+        <form action="/enviar" method="POST">
+            <input type="email" name="email" required /><br>
+            <input type="number" name="Celular" required /><br>
+            <input type="checkbox" name="No soy un Robot" required /><br>
+            <button type="submit">Enviar</button>
+        </form>
+        <p>Contactame directamente: </p>
+        <p>095380469</p>
+        <p>patoismapachecoqgmail.com</p>
     </body>
 </html>
