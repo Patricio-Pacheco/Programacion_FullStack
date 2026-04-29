@@ -1,0 +1,22 @@
+menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menuNav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.contBtn {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
