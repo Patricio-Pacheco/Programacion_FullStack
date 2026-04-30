@@ -1,0 +1,7 @@
+.header {
+    display: grid;
+    grid-template-areas: "header header";
+    text-align: center;
+    background-color: dodgerblue;
+    
+}
